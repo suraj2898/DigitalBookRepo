@@ -1,0 +1,29 @@
+.bgColor
+{
+    background-color: rgb(87, 129, 209);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+.hide {
+    display: none;
+    text-transform: capitalize;    
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    position: absolute;
+    top: 10%;
+    padding: 20px;
+    background-color: grey;
+    border: 1px solid white;
+  }
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.logo
+{
+    color: rgb(230, 207, 0);font-size: 23px;text-align: left;padding-left: 20px !important;
+}
